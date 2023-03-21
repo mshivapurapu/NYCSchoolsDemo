@@ -1,0 +1,6 @@
+framework module Pods_VirtusaTest_VirtusaTestUITests {
+  umbrella header "Pods-VirtusaTest-VirtusaTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

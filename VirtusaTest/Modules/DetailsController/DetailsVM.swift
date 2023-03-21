@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class DetailsVM {
+    
+    var listData: ListData
+    
+    init(listData: ListData) {
+        self.listData = listData
+    }
+}

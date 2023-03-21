@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4364CAE829C875A9002407A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CAE729C875A9002407A0 /* AppDelegate.swift */; };
-		4364CAEA29C875A9002407A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CAE929C875A9002407A0 /* SceneDelegate.swift */; };
-		4364CAEC29C875A9002407A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CAEB29C875A9002407A0 /* ViewController.swift */; };
+		027284D8E59C45FF2A6F6705 /* Pods_VirtusaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A7D29C2959059C8ED1E6A0 /* Pods_VirtusaTest.framework */; };
+		3DB73F1EB08372B58124482D /* Pods_VirtusaTest_VirtusaTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08379CA39293557F84D965F5 /* Pods_VirtusaTest_VirtusaTestUITests.framework */; };
 		4364CAEF29C875A9002407A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4364CAED29C875A9002407A0 /* Main.storyboard */; };
 		4364CAF229C875A9002407A0 /* VirtusaTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4364CAF029C875A9002407A0 /* VirtusaTest.xcdatamodeld */; };
 		4364CAF429C875AA002407A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4364CAF329C875AA002407A0 /* Assets.xcassets */; };
@@ -17,6 +16,19 @@
 		4364CB0229C875AA002407A0 /* VirtusaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB0129C875AA002407A0 /* VirtusaTestTests.swift */; };
 		4364CB0C29C875AA002407A0 /* VirtusaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB0B29C875AA002407A0 /* VirtusaTestUITests.swift */; };
 		4364CB0E29C875AA002407A0 /* VirtusaTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB0D29C875AA002407A0 /* VirtusaTestUITestsLaunchTests.swift */; };
+		4364CB2529C87B46002407A0 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB2129C87B46002407A0 /* ListVC.swift */; };
+		4364CB2629C87B46002407A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB2329C87B46002407A0 /* AppDelegate.swift */; };
+		4364CB2729C87B46002407A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB2429C87B46002407A0 /* SceneDelegate.swift */; };
+		4364CB2929C87B60002407A0 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB2829C87B60002407A0 /* ListCell.swift */; };
+		4364CB2C29C87DD3002407A0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB2B29C87DD3002407A0 /* Constants.swift */; };
+		4364CB2E29C8825A002407A0 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB2D29C8825A002407A0 /* Protocols.swift */; };
+		4364CB3229C9B2AF002407A0 /* ListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB3129C9B2AF002407A0 /* ListVM.swift */; };
+		4364CB3429C9B2CB002407A0 /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB3329C9B2CB002407A0 /* ListData.swift */; };
+		4364CB3629C9B2DD002407A0 /* ListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB3529C9B2DD002407A0 /* ListService.swift */; };
+		4364CB3929C9B308002407A0 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB3829C9B308002407A0 /* DetailsVC.swift */; };
+		4364CB3B29C9B312002407A0 /* DetailsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB3A29C9B312002407A0 /* DetailsVM.swift */; };
+		4364CB3D29C9B325002407A0 /* DetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364CB3C29C9B325002407A0 /* DetailsCell.swift */; };
+		E71A274DB4BBA70F46638E8D /* Pods_VirtusaTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEC9AFFF82EE995B4F34F2E /* Pods_VirtusaTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08379CA39293557F84D965F5 /* Pods_VirtusaTest_VirtusaTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtusaTest_VirtusaTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEC9AFFF82EE995B4F34F2E /* Pods_VirtusaTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtusaTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F6A4A87B676E1813BF4C8B /* Pods-VirtusaTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtusaTestTests.release.xcconfig"; path = "Target Support Files/Pods-VirtusaTestTests/Pods-VirtusaTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		359768FC7C4D5D9B04770D20 /* Pods-VirtusaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtusaTest.release.xcconfig"; path = "Target Support Files/Pods-VirtusaTest/Pods-VirtusaTest.release.xcconfig"; sourceTree = "<group>"; };
+		3A61878C1741D306DE53DB8B /* Pods-VirtusaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtusaTest.debug.xcconfig"; path = "Target Support Files/Pods-VirtusaTest/Pods-VirtusaTest.debug.xcconfig"; sourceTree = "<group>"; };
 		4364CAE429C875A9002407A0 /* VirtusaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtusaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4364CAE729C875A9002407A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4364CAE929C875A9002407A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4364CAEB29C875A9002407A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4364CAEE29C875A9002407A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4364CAF129C875A9002407A0 /* VirtusaTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirtusaTest.xcdatamodel; sourceTree = "<group>"; };
 		4364CAF329C875AA002407A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +65,22 @@
 		4364CB0729C875AA002407A0 /* VirtusaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtusaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4364CB0B29C875AA002407A0 /* VirtusaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtusaTestUITests.swift; sourceTree = "<group>"; };
 		4364CB0D29C875AA002407A0 /* VirtusaTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtusaTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4364CB2129C87B46002407A0 /* ListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		4364CB2329C87B46002407A0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4364CB2429C87B46002407A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4364CB2829C87B60002407A0 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		4364CB2B29C87DD3002407A0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4364CB2D29C8825A002407A0 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		4364CB3129C9B2AF002407A0 /* ListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVM.swift; sourceTree = "<group>"; };
+		4364CB3329C9B2CB002407A0 /* ListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListData.swift; sourceTree = "<group>"; };
+		4364CB3529C9B2DD002407A0 /* ListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListService.swift; sourceTree = "<group>"; };
+		4364CB3829C9B308002407A0 /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		4364CB3A29C9B312002407A0 /* DetailsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVM.swift; sourceTree = "<group>"; };
+		4364CB3C29C9B325002407A0 /* DetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCell.swift; sourceTree = "<group>"; };
+		44C12E5015520A9D55048066 /* Pods-VirtusaTest-VirtusaTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtusaTest-VirtusaTestUITests.release.xcconfig"; path = "Target Support Files/Pods-VirtusaTest-VirtusaTestUITests/Pods-VirtusaTest-VirtusaTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62A7D29C2959059C8ED1E6A0 /* Pods_VirtusaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtusaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AC9E499FF5668E526F4E0F /* Pods-VirtusaTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtusaTestTests.debug.xcconfig"; path = "Target Support Files/Pods-VirtusaTestTests/Pods-VirtusaTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC648ADF6ED0B4082BAFC127 /* Pods-VirtusaTest-VirtusaTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtusaTest-VirtusaTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-VirtusaTest-VirtusaTestUITests/Pods-VirtusaTest-VirtusaTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027284D8E59C45FF2A6F6705 /* Pods_VirtusaTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E71A274DB4BBA70F46638E8D /* Pods_VirtusaTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB73F1EB08372B58124482D /* Pods_VirtusaTest_VirtusaTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39CFE63F580028A5F296D659 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A61878C1741D306DE53DB8B /* Pods-VirtusaTest.debug.xcconfig */,
+				359768FC7C4D5D9B04770D20 /* Pods-VirtusaTest.release.xcconfig */,
+				BC648ADF6ED0B4082BAFC127 /* Pods-VirtusaTest-VirtusaTestUITests.debug.xcconfig */,
+				44C12E5015520A9D55048066 /* Pods-VirtusaTest-VirtusaTestUITests.release.xcconfig */,
+				85AC9E499FF5668E526F4E0F /* Pods-VirtusaTestTests.debug.xcconfig */,
+				31F6A4A87B676E1813BF4C8B /* Pods-VirtusaTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4364CADB29C875A9002407A0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,8 @@
 				4364CB0029C875AA002407A0 /* VirtusaTestTests */,
 				4364CB0A29C875AA002407A0 /* VirtusaTestUITests */,
 				4364CAE529C875A9002407A0 /* Products */,
+				39CFE63F580028A5F296D659 /* Pods */,
+				4B68DB9302A758E4A3A5804E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +149,9 @@
 		4364CAE629C875A9002407A0 /* VirtusaTest */ = {
 			isa = PBXGroup;
 			children = (
-				4364CAE729C875A9002407A0 /* AppDelegate.swift */,
-				4364CAE929C875A9002407A0 /* SceneDelegate.swift */,
-				4364CAEB29C875A9002407A0 /* ViewController.swift */,
+				4364CB2A29C87DCA002407A0 /* Utility */,
+				4364CB2229C87B46002407A0 /* AppDelegate */,
+				4364CB1E29C87B46002407A0 /* Modules */,
 				4364CAED29C875A9002407A0 /* Main.storyboard */,
 				4364CAF329C875AA002407A0 /* Assets.xcassets */,
 				4364CAF529C875AA002407A0 /* LaunchScreen.storyboard */,
@@ -130,6 +178,73 @@
 			path = VirtusaTestUITests;
 			sourceTree = "<group>";
 		};
+		4364CB1E29C87B46002407A0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4364CB3729C9B308002407A0 /* DetailsController */,
+				4364CB1F29C87B46002407A0 /* ListController */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4364CB1F29C87B46002407A0 /* ListController */ = {
+			isa = PBXGroup;
+			children = (
+				4364CB2029C87B46002407A0 /* Models */,
+				4364CB2129C87B46002407A0 /* ListVC.swift */,
+				4364CB3529C9B2DD002407A0 /* ListService.swift */,
+				4364CB3129C9B2AF002407A0 /* ListVM.swift */,
+				4364CB2829C87B60002407A0 /* ListCell.swift */,
+			);
+			path = ListController;
+			sourceTree = "<group>";
+		};
+		4364CB2029C87B46002407A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4364CB3329C9B2CB002407A0 /* ListData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4364CB2229C87B46002407A0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4364CB2329C87B46002407A0 /* AppDelegate.swift */,
+				4364CB2429C87B46002407A0 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4364CB2A29C87DCA002407A0 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4364CB2B29C87DD3002407A0 /* Constants.swift */,
+				4364CB2D29C8825A002407A0 /* Protocols.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4364CB3729C9B308002407A0 /* DetailsController */ = {
+			isa = PBXGroup;
+			children = (
+				4364CB3829C9B308002407A0 /* DetailsVC.swift */,
+				4364CB3A29C9B312002407A0 /* DetailsVM.swift */,
+				4364CB3C29C9B325002407A0 /* DetailsCell.swift */,
+			);
+			path = DetailsController;
+			sourceTree = "<group>";
+		};
+		4B68DB9302A758E4A3A5804E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62A7D29C2959059C8ED1E6A0 /* Pods_VirtusaTest.framework */,
+				08379CA39293557F84D965F5 /* Pods_VirtusaTest_VirtusaTestUITests.framework */,
+				2FEC9AFFF82EE995B4F34F2E /* Pods_VirtusaTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4364CB1129C875AA002407A0 /* Build configuration list for PBXNativeTarget "VirtusaTest" */;
 			buildPhases = (
+				7DA736EE9A63CABD4C9EE381 /* [CP] Check Pods Manifest.lock */,
 				4364CAE029C875A9002407A0 /* Sources */,
 				4364CAE129C875A9002407A0 /* Frameworks */,
 				4364CAE229C875A9002407A0 /* Resources */,
+				3EA9AB8002CEA544ADDB481E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4364CB1429C875AA002407A0 /* Build configuration list for PBXNativeTarget "VirtusaTestTests" */;
 			buildPhases = (
+				2F46B496D312DCE68E2FA71D /* [CP] Check Pods Manifest.lock */,
 				4364CAF929C875AA002407A0 /* Sources */,
 				4364CAFA29C875AA002407A0 /* Frameworks */,
 				4364CAFB29C875AA002407A0 /* Resources */,
@@ -172,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4364CB1729C875AA002407A0 /* Build configuration list for PBXNativeTarget "VirtusaTestUITests" */;
 			buildPhases = (
+				4E9E62B9CBCB99BD670FD79E /* [CP] Check Pods Manifest.lock */,
 				4364CB0329C875AA002407A0 /* Sources */,
 				4364CB0429C875AA002407A0 /* Frameworks */,
 				4364CB0529C875AA002407A0 /* Resources */,
+				160628203E04B3156C24B78C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +376,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		160628203E04B3156C24B78C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtusaTest-VirtusaTestUITests/Pods-VirtusaTest-VirtusaTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtusaTest-VirtusaTestUITests/Pods-VirtusaTest-VirtusaTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtusaTest-VirtusaTestUITests/Pods-VirtusaTest-VirtusaTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F46B496D312DCE68E2FA71D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtusaTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EA9AB8002CEA544ADDB481E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtusaTest/Pods-VirtusaTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtusaTest/Pods-VirtusaTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtusaTest/Pods-VirtusaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E9E62B9CBCB99BD670FD79E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtusaTest-VirtusaTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DA736EE9A63CABD4C9EE381 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtusaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4364CAE029C875A9002407A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4364CAEC29C875A9002407A0 /* ViewController.swift in Sources */,
-				4364CAE829C875A9002407A0 /* AppDelegate.swift in Sources */,
+				4364CB2629C87B46002407A0 /* AppDelegate.swift in Sources */,
+				4364CB2529C87B46002407A0 /* ListVC.swift in Sources */,
+				4364CB3D29C9B325002407A0 /* DetailsCell.swift in Sources */,
+				4364CB3229C9B2AF002407A0 /* ListVM.swift in Sources */,
+				4364CB2E29C8825A002407A0 /* Protocols.swift in Sources */,
+				4364CB3629C9B2DD002407A0 /* ListService.swift in Sources */,
 				4364CAF229C875A9002407A0 /* VirtusaTest.xcdatamodeld in Sources */,
-				4364CAEA29C875A9002407A0 /* SceneDelegate.swift in Sources */,
+				4364CB2929C87B60002407A0 /* ListCell.swift in Sources */,
+				4364CB2729C87B46002407A0 /* SceneDelegate.swift in Sources */,
+				4364CB2C29C87DD3002407A0 /* Constants.swift in Sources */,
+				4364CB3429C9B2CB002407A0 /* ListData.swift in Sources */,
+				4364CB3929C9B308002407A0 /* DetailsVC.swift in Sources */,
+				4364CB3B29C9B312002407A0 /* DetailsVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +668,7 @@
 		};
 		4364CB1229C875AA002407A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A61878C1741D306DE53DB8B /* Pods-VirtusaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,6 +696,7 @@
 		};
 		4364CB1329C875AA002407A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 359768FC7C4D5D9B04770D20 /* Pods-VirtusaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +724,7 @@
 		};
 		4364CB1529C875AA002407A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85AC9E499FF5668E526F4E0F /* Pods-VirtusaTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +744,7 @@
 		};
 		4364CB1629C875AA002407A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F6A4A87B676E1813BF4C8B /* Pods-VirtusaTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +764,7 @@
 		};
 		4364CB1829C875AA002407A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC648ADF6ED0B4082BAFC127 /* Pods-VirtusaTest-VirtusaTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +782,7 @@
 		};
 		4364CB1929C875AA002407A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C12E5015520A9D55048066 /* Pods-VirtusaTest-VirtusaTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

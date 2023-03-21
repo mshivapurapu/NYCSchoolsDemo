@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+public struct Constants {
+    static let listCell = "ListCell"
+    static let detailsCell = "DetailsCell"
+}
